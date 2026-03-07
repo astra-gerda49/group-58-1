@@ -1,0 +1,43 @@
+.menu-button-left {
+    background-color: white;
+    border: none;
+    padding: 40px 40px 20px 40px;
+}
+.menu-logo {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+} 
+.menu-button-right {
+    display: block;
+    padding: 5px;
+    margin-right: 150px;
+    margin-left: auto;
+    margin-top: -55px;
+    background-color: rgb(5, 164, 90);
+    color: white;
+    min-height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+}
+.menu-img-right-magnifier {
+    width: 60px;
+    display: block;
+    padding: 5px;
+    margin-right: 500px;
+    margin-left: auto;
+    margin-top: -75px;
+    box-sizing: border-box;
+}
+.menu-img-right-Food_cart {
+    width: 60px;
+    display: block;
+    padding: 5px;
+    margin-right: 400px;
+    margin-left: auto;
+    margin-top: -70px;
+    box-sizing: border-box;
+}
