@@ -1,21 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <nav class="menu">
-        <button class="menu-button-left">About Us</button>
-        <button class="menu-button-left">Service</button>
-        <button class="menu-button-left">Menu</button>
-        <button class="menu-button-left">Contact</button>
-        <img class="menu-logo" src="./img/Green_planet.jpg" alt="">
-        <img class="menu-img-right-magnifier" src="./img/magnifier.webp" alt="">
-        <img class="menu-img-right-Food_cart" src="./img/Food cart.webp" alt="">
-        <button class="menu-button-right">Register Now</button>
-    </nav>
+	<header class="header">
+		<div class="container">
+			<div class="header__wrap">
+				<nav class="nav-menu">
+					<ul class="nav-menu__list">
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="#">About Us</a>
+						</li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="#">Service</a>
+						</li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="#">Menu</a>
+						</li>
+						<li class="nav-menu__item">
+							<a class="nav-menu__link" href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+
+				<a class="logo" href="#">
+					<img class="logo__img" src="./img/logo.svg" alt="">
+				</a>
+
+				<div class="header__wrap-buttons">
+					<button class="seurch btn btn--round">
+						<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="9.73856" cy="9.73856" r="8.98856" stroke="#222222" stroke-width="1.5" stroke-linecap="round"
+								stroke-linejoin="round" />
+							<path d="M15.9903 16.457L19.5143 19.9719" stroke="#222222" stroke-width="1.5" stroke-linecap="round"
+								stroke-linejoin="round" />
+						</svg>
+					</button>
+					<button class="cart header__cart btn btn--round">
+						<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M7.42229 20.0691C7.84429 20.0691 8.18729 20.4121 8.18729 20.8341C8.18729 21.2561 7.84429 21.5981 7.42229 21.5981C7.00029 21.5981 6.65829 21.2561 6.65829 20.8341C6.65829 20.4121 7.00029 20.0691 7.42229 20.0691Z"
+								stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path fill-rule="evenodd" clip-rule="evenodd"
+								d="M18.6747 20.0691C19.0967 20.0691 19.4397 20.4121 19.4397 20.8341C19.4397 21.2561 19.0967 21.5981 18.6747 21.5981C18.2527 21.5981 17.9097 21.2561 17.9097 20.8341C17.9097 20.4121 18.2527 20.0691 18.6747 20.0691Z"
+								stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path
+								d="M2.74991 3.49878L4.82991 3.85878L5.79291 15.3318C5.87091 16.2668 6.65191 16.9848 7.58991 16.9848H18.5019C19.3979 16.9848 20.1579 16.3268 20.2869 15.4388L21.2359 8.88078C21.3529 8.07178 20.7259 7.34778 19.9089 7.34778H5.16391"
+								stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M14.1254 11.0457H16.8984" stroke="#222222" stroke-width="1.5" stroke-linecap="round"
+								stroke-linejoin="round" />
+							<circle cx="15.6482" cy="3.0269" r="3.0269" fill="#09A66D" />
+						</svg>
+
+					</button>
+					<button class="header__btn-register btn btn--register">Register Now</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="organic">
+			<div class="container">
+				<h1 class="organic-title">Organic Fruit & Vegetables</h1>
+				<p class="organic-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley…</p>
+				<a class="organic-order" href="#">
+					<span class="organic-order_btn">Order Now</span>
+					<img class="organic-order-circle_btn" src="./img/green_circle.svg" alt="">
+					<img class="organic-order-arrow_btn" src="./img/wight_arrow.svg" alt="">
+				</a>
+				<div>
+					<img class="organic_img" src="./img/vegetables-fruits-white_55883-892 1.svg" alt="">
+					<ul class="organic-estimation">
+						<li class="organic-estimation-users"></li>
+							<img class="organic-estimation-users_img" src="./img/user 1.svg" alt="">
+							<div>
+								<span class="organic-estimation-users-text-big">30K</span>
+								<span class="organic-estimation-users-text-small">User Order</span>
+							</div>
+						</li>
+						<li class="organic-estimation-stars">
+							<img class="organic-estimation-stars_img" src="./img/star 7.svg" alt="">
+							<div>
+								<span class="organic-estimation-stars-text-big">20K</span>
+								<span class="organic-estimation-stars-text-small">Reviews(4.8)</span>
+							</div>
+						</li>
+						<li class="organic-estimation-items">
+							<img class="organic-estimation-items_img" src="./img/harvest 1.svg" alt="">
+							<div>
+								<span class="organic-estimation-items-text-big">300</span>
+								<span class="organic-estimation-items-text-small">Items</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="we-best">
+			<div class="container">
+				<h1 class="we-best-title">Why We Aer The Best?</h1>
+				<p class="we-best-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley…</p>
+				<img class="we-best_img" src="./img/man.svg" alt="">
+				<ul class="we-best-pluses">
+						<li class="we-best-pluses-delivery">
+							<img class="we-best-pluses-delivery_img" src="./img/courier.svg" alt="">
+							<div>
+								<span class="we-best-pluses-delivery-text-big">Fasted delivery Service</span>
+								<span class="we-best-pluses-delivery-text-small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+							</div>
+						</li>
+						<li class="we-best-pluses-online">
+							<img class="we-best-pluses-online_img" src="./img/shopping 1.svg" alt="">
+							<div>
+								<span class="we-best-pluses-online-text-big">Online order Service</span>
+								<span class="we-best-pluses-online-text-small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+							</div>
+						</li>
+						<li class="we-best-pluses-service">
+							<img class="we-best-pluses-service_img" src="./img/time.svg" alt="">
+							<div>
+								<span class="we-best-pluses-service-text-big">24/7 Service</span>
+								<span class="we-best-pluses-service-text-small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+							</div>
+						</li>
+						<img class="we-best-arrow" src="./img/green_arrow.svg" alt="">
+					</ul>
+			</div>
+		</section>
+	</main>
+
+
 </body>
+
 </html>
