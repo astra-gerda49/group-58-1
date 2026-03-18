@@ -88,7 +88,7 @@ a {
 	left: 0px;
 	top: 149px;
 }
-.organic_img {
+.organic__img {
 	position: absolute;
 	width: 862.18px;
 	height: 465.52px;
@@ -96,7 +96,7 @@ a {
 	top: 500.6px;
 	background-blend-mode: darken;
 }
-.organic-title {
+.organic__title {
 	position: absolute;
 	width: 783px;
 	height: 90px;
@@ -109,7 +109,7 @@ a {
 	line-height: 90px;
 	color: #222222;
 }
-.organic-text {
+.organic__text {
 	position: absolute;
 	width: 637.01px;
 	height: 90px;
@@ -123,7 +123,7 @@ a {
 	color: #555555;
 	align-items: center;
 }
-.organic-order_btn {
+.organic__order__text {
 	position: absolute;
 	width: 92px;
 	height: 30px;
@@ -137,15 +137,7 @@ a {
 	text-align: center;
 	color: #222222;
 }
-.organic-order-circle_btn {
-	position: absolute;
-	width: 64px;
-	height: 64px;
-	left: 744px;
-	top: 481.97px;
-	background: #09A66D;
-}
-.organic-order-arrow_btn {
+.organic__order__arrow__img {
 	box-sizing: border-box;
 	position: absolute;
 	width: 32px;
@@ -154,7 +146,7 @@ a {
 	top: 513.97px;
 	border: 2px solid #FFFFFF;
 }
-.organic-order {
+.organic__order {
 	position: absolute;
 	width: 250px;
 	height: 116px;
@@ -162,17 +154,17 @@ a {
 	top: 541px;
 	background: #FFFFFF;
 }
-.organic-estimation {
+.organic__estimation {
 	list-style: none;
 }
-.organic-estimation-users {
+.organic__estimation__users {
 	position: absolute;
 	width: 250px;
 	height: 116px;
 	left: 1090px;
 	top: 541px;
 }
-.organic-estimation-users_img {
+.organic__estimation__img {
 	position: absolute;
 	width: 56px;
 	height: 56px;
@@ -180,7 +172,7 @@ a {
 	top: 571px;
 	background: #F3FBF8;
 }
-.organic-estimation-users-text-big {
+.organic__estimation__users--30k {
 	position: absolute;
 	width: 90px;
 	height: 48px;
@@ -194,7 +186,7 @@ a {
 	text-align: center;
 	color: #000000;
 }
-.organic-estimation-users-text-small {
+.organic__estimation__users--userorder {
 	position: absolute;
 	width: 91px;
 	height: 30px;
@@ -208,7 +200,7 @@ a {
 	text-align: center;
 	color: #000000;
 }
-.organic-estimation-stars {
+.organic__estimation__stars {
 	position: absolute;
 	width: 250px;
 	height: 116px;
@@ -216,7 +208,7 @@ a {
 	top: 687px;
 	background: #FFFFFF;
 }
-.organic-estimation-stars_img {
+.organic__estimation__stars__img {
 	position: absolute;
 	width: 56px;
 	height: 56px;
@@ -224,7 +216,7 @@ a {
 	top: 717px;
 	background: #F3FBF8;
 }
-.organic-estimation-stars-text-big {
+.organic__estimation__stars--20k {
 	position: absolute;
 	width: 89px;
 	height: 48px;
@@ -238,7 +230,7 @@ a {
 	text-align: center;
 	color: #000000;
 }
-.organic-estimation-stars-text-small {
+.organic__estimation__stars--reviews {
 	position: absolute;
 	width: 104px;
 	height: 30px;
@@ -252,7 +244,7 @@ a {
 	text-align: center;
 	color: #000000;
 }
-.organic-estimation-items {
+.organic__estimation__object {
 	position: absolute;
 	width: 250px;
 	height: 116px;
@@ -260,7 +252,7 @@ a {
 	top: 833px;
 	background: #FFFFFF;
 }
-.organic-estimation-items_img {
+.organic__estimation__object__img {
 	position: absolute;
 	width: 56px;
 	height: 56px;
@@ -268,7 +260,7 @@ a {
 	top: 863px;
 	background: #F3FBF8;
 }
-.organic-estimation-items-text-big {
+.organic__estimation__object--300 {
 	position: absolute;
 	width: 95px;
 	height: 48px;
@@ -282,7 +274,7 @@ a {
 	text-align: center;
 	color: #000000;
 }
-.organic-estimation-items-text-small {
+.organic__estimation__object--items {
 	position: absolute;
 	width: 47px;
 	height: 30px;
@@ -296,7 +288,7 @@ a {
 	text-align: center;
 	color: #000000;
 }
-.we-best-title {
+.we-best__title {
 	position: absolute;
 	width: 671px;
 	height: 90px;
@@ -309,7 +301,7 @@ a {
 	line-height: 90px;
 	color: #222222;
 }
-.we-best-text {
+.we-best__text {
 	position: absolute;
 	width: 637.01px;
 	height: 90px;
@@ -322,7 +314,7 @@ a {
 	line-height: 30px;
 	color: #555555;
 }
-.we-best_img {
+.we-best__img {
 	position: absolute;
 	width: 600px;
 	height: 600px;
@@ -336,17 +328,17 @@ a {
 	top: 1317.89px;
 	border-radius: 41px;
 }
-.we-best-pluses {
+.we-best__pluses {
 	list-style: none;
 }
-.we-best-pluses-delivery {
+.we-best__pluses__delivery {
 	position: absolute;
 	width: 381.45px;
 	height: 80px;
 	left: 159.47px;
 	top: 1395.89px;
 }
-.we-best-pluses-delivery_img {
+.we-best__pluses__delivery__img {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -354,7 +346,7 @@ a {
 	top: 1395.89px;
 	background: #F3FBF8;
 }
-.we-best-pluses-delivery-text-big {
+.we-best__pluses__delivery--faster {
 	position: absolute;
 	width: 225px;
 	height: 30px;
@@ -367,7 +359,7 @@ a {
 	line-height: 30px;
 	color: #222222;
 }
-.we-best-pluses-delivery-text-small {
+.we-best__pluses__delivery--text {
 	position: absolute;
 	width: 277.45px;
 	height: 40px;
@@ -380,7 +372,7 @@ a {
 	line-height: 20px;
 	color: #555555;
 }
-.we-best-pluses-online {
+.we-best__pluses__online {
 	position: absolute;
 	width: 500px;
 	height: 160px;
@@ -388,7 +380,7 @@ a {
 	top: 1535.89px;
 	background: #F3FBF8;
 }
-.we-best-pluses-online_img {
+.we-best__pluses__online__img {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -396,7 +388,7 @@ a {
 	top: 1575.89px;
 	background: #FFFFFF;
 }
-.we-best-pluses-online-text-big {
+.we-best__pluses__online--service {
 	position: absolute;
 	width: 198px;
 	height: 30px;
@@ -409,7 +401,7 @@ a {
 	line-height: 30px;
 	color: #222222;
 }
-.we-best-pluses-online-text-small {
+.we-best__pluses__online--text {
 	position: absolute;
 	width: 277.45px;
 	height: 40px;
@@ -422,14 +414,14 @@ a {
 	line-height: 20px;
 	color: #555555;
 }
-.we-best-pluses-service {
+.we-best__pluses__service {
 	position: absolute;
 	width: 381.45px;
 	height: 80px;
 	left: 159.47px;
 	top: 1755.89px;
 }
-.we-best-pluses-service_img {
+.we-best__pluses__service__img {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -437,7 +429,7 @@ a {
 	top: 1755.89px;
 	background: #F3FBF8;
 }
-.we-best-pluses-service-text-big {
+.we-best__pluses__service--aroundtheclock {
 	position: absolute;
 	width: 122px;
 	height: 30px;
@@ -450,7 +442,7 @@ a {
 	line-height: 30px;
 	color: #222222;
 }
-.we-best-pluses-service-text-small {
+.we-best__pluses__service--text {
 	position: absolute;
 	width: 277.45px;
 	height: 40px;
@@ -463,7 +455,7 @@ a {
 	line-height: 20px;
 	color: #555555;
 }
-.we-best-arrow {
+.we-best__arrow {
 	box-sizing: border-box;
 	position: absolute;
 	width: 32px;
